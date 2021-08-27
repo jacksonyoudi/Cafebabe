@@ -12,9 +12,6 @@ public class SqlSessionFactoryBuilder {
     public SqlSessionFactory build(InputStream in) throws DocumentException, PropertyVetoException, IOException {
         XMLConfigBuilder xmlConfigBuilder = new XMLConfigBuilder();
         Configuration config = xmlConfigBuilder.parseConfig(in);
-
-
-
-        return null;
+        return new DefaultSqlSessionFactory(config);
     }
 }
