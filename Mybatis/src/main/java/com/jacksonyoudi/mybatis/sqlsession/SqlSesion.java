@@ -9,5 +9,6 @@ public interface SqlSesion {
 
     public <T> T selectOne(String statementid, Object... parameters) throws Exception;
 
+    public  <T> T getMapper(Class<?> mapper);
 
 }
