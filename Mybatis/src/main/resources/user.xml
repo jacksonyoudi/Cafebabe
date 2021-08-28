@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="user">
+    <select id="findAll"
+            resultType="com.jacksonyoudi.mybatis.pojo.User">
+        select *
+        from `user`
+    </select>
+
+    <insert id="saveUser" parameterType="com.jacksonyoudi.mybatis.pojo.User">
+        insert into user
+        values (#{id}, #{username})
+    </insert>
+
+    <update id="updateUser" parameterType="com.jacksonyoudi.mybatis.pojo.User">
+        update user
+        set username = #{username}
+        where id = #{id}
+    </update>
+
+    <delete id="deleteUser" parameterType="java.lang.Integer">
+        delete
+        from user
+        where id = #{id}
+    </delete>
+</mapper>

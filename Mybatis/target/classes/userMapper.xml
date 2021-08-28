@@ -1,10 +1,10 @@
-<mapper namespace="user">
-    <select id="selectList" resultType="com.jacksonyoudi.mybatis.pojo.User">
+<mapper namespace="com.jacksonyoudi.mybatis.dao.IUserDao">
+    <select id="findAll" resultType="com.jacksonyoudi.mybatis.pojo.User">
         select * from user
     </select>
 
     <!--    多个参数传递 将参数 放到  -->
-    <select id="selectOne" resultType="com.jacksonyoudi.mybatis.pojo.User"
+    <select id="findByCondition" resultType="com.jacksonyoudi.mybatis.pojo.User"
             parameterType="com.jacksonyoudi.mybatis.pojo.User">
         select * from user where id = #{id} and username = #{username}
     </select>

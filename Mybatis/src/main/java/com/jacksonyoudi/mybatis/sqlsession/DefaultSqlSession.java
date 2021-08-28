@@ -4,7 +4,6 @@ import com.jacksonyoudi.mybatis.pojo.Configuration;
 import com.jacksonyoudi.mybatis.pojo.MapperStatement;
 
 import java.lang.reflect.*;
-import java.sql.SQLException;
 import java.util.List;
 
 public class DefaultSqlSession implements SqlSesion {
