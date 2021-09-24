@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Squirrel" />
+        <module name="Dolphin" />
         <module name="Mybatis" />
+        <module name="Squirrel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Cafebabe" target="8" />
+      <module name="Dolphin" target="8" />
       <module name="Mybatis" target="8" />
       <module name="Squirrel" target="1.8" />
     </bytecodeTargetLevel>

@@ -8,5 +8,11 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="scala-sdk-2.12.12" level="application" />
+  </component>
+  <component name="copyright">
+    <Base>
+      <setting name="state" value="2" />
+    </Base>
   </component>
 </module>
