@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3772c56-d0cf-4878-84d1-7e42fe6a7899" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_calcite_avatica_avatica_core_1_17_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_base_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_connector_files_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_java_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_java_bridge_2_12_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_scala_2_12_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_api_scala_bridge_2_12_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_common_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_planner_2_12_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_planner_blink_2_12_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flink_flink_table_runtime_blink_2_12_1_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Squirrel/src/main/scala/com/jacksonyoudi/base/StreamTable.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Squirrel/Squirrel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Squirrel/Squirrel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Squirrel/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Squirrel/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Squirrel/src/main/scala/com/jacksonyoudi/base/StreamTable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Squirrel/src/main/scala/com/jacksonyoudi/base/StreamTable.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +176,9 @@
       <workItem from="1631350725291" duration="4888000" />
       <workItem from="1631626013138" duration="567000" />
       <workItem from="1631659904374" duration="356000" />
+      <workItem from="1632409829938" duration="72000" />
+      <workItem from="1632438296615" duration="597000" />
+      <workItem from="1632492135246" duration="182000" />
     </task>
     <servers />
   </component>
