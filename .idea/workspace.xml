@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3772c56-d0cf-4878-84d1-7e42fe6a7899" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Squirrel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Squirrel/src/main/scala/com/jacksonyoudi/base/LineSplitter.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Squirrel/src/main/scala/com/jacksonyoudi/base/WC.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Cafebabe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Cafebabe.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis/Mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis/Mybatis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Squirrel/Squirrel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Squirrel/Squirrel.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +34,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,6 +49,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -58,7 +72,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Mybatis/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -102,17 +116,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,6 +166,7 @@
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
@@ -175,7 +179,10 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b3772c56-d0cf-4878-84d1-7e42fe6a7899" name="Default Changelist" comment="" />
@@ -198,11 +205,12 @@
       <workItem from="1631350005469" duration="498000" />
       <workItem from="1631350544272" duration="175000" />
       <workItem from="1631350725291" duration="1532000" />
+      <workItem from="1632095075103" duration="2433000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -215,6 +223,36 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="437" y="186" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1632097541070">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="437" y="186" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1632097541070" />
+    <state width="1740" height="453" key="GridCell.Tab.0.bottom" timestamp="1632227591140">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="453" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591140" />
+    <state width="1740" height="453" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977484" />
+    <state width="1740" height="453" key="GridCell.Tab.0.center" timestamp="1632227591139">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="453" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591139" />
+    <state width="1740" height="453" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977481" />
+    <state width="1740" height="453" key="GridCell.Tab.0.left" timestamp="1632227591138">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="453" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591138" />
+    <state width="1740" height="453" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977480" />
+    <state width="1740" height="453" key="GridCell.Tab.0.right" timestamp="1632227591140">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1740" height="453" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591140" />
+    <state width="1740" height="453" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977483" />
+    <state x="295" y="23" width="1280" height="1031" key="SettingsEditor" timestamp="1632097947445">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="295" y="23" width="1280" height="1031" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1632097947445" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
