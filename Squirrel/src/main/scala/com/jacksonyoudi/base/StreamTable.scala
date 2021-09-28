@@ -19,7 +19,6 @@ object StreamTable {
 
     val table: Table = tabEnv.fromDataStream(wordStream)
     table.printSchema()
-ßß
 
   }
 }
