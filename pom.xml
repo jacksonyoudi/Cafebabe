@@ -13,6 +13,7 @@
         <module>Mybatis</module>
         <module>Squirrel</module>
         <module>Dolphin</module>
+        <module>MeshNetty</module>
     </modules>
 
     <properties>
