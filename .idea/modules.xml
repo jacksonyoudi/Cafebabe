@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cafebabe.iml" filepath="$PROJECT_DIR$/Cafebabe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dolphin/Dolphin.iml" filepath="$PROJECT_DIR$/Dolphin/Dolphin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MeshNetty/MeshNetty.iml" filepath="$PROJECT_DIR$/MeshNetty/MeshNetty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Squirrel/Squirrel.iml" filepath="$PROJECT_DIR$/Squirrel/Squirrel.iml" />
+    </modules>
+  </component>
+</project>
