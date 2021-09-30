@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3772c56-d0cf-4878-84d1-7e42fe6a7899" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MeshNetty/src/main/java/com/jacksonyoudi/handbook/nio/BasicBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeshNetty/src/main/java/com/jacksonyoudi/handbook/nio/MappedByteBufferD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeshNetty/src/main/java/com/jacksonyoudi/handbook/nio/NIOFileChannel01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeshNetty/src/main/java/com/jacksonyoudi/handbook/nio/NIOFileChannel02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeshNetty/src/main/java/com/jacksonyoudi/handbook/nio/NIOFileChannel03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeshNetty/src/main/java/com/jacksonyoudi/handbook/nio/NIOFileChannel030.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MeshNetty/src/main/java/com/jacksonyoudi/handbook/nio/NIOFileChannel04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,20 +95,7 @@
       <recent name="com.jacksonyoudi.mybatis.io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BIOServer">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.App" />
-      <module name="MeshNetty" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jacksonyoudi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MappedByteBufferD">
     <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.handbook.bio.BIOServer" />
       <module name="MeshNetty" />
@@ -117,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscardServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.mesh.discard.DiscardServer" />
+    <configuration name="MappedByteBufferD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.handbook.nio.MappedByteBufferD" />
       <module name="MeshNetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jacksonyoudi.mesh.discard.*" />
+          <option name="PATTERN" value="com.jacksonyoudi.handbook.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WC" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.base.WC" />
-      <module name="Squirrel" />
+    <configuration name="NIOFileChannel01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.handbook.nio.NIOFileChannel01" />
+      <module name="MeshNetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jacksonyoudi.base.*" />
+          <option name="PATTERN" value="com.jacksonyoudi.handbook.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +135,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WCStreaming" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.base.WCStreaming" />
-      <module name="Squirrel" />
+    <configuration name="NIOFileChannel02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.handbook.nio.NIOFileChannel02" />
+      <module name="MeshNetty" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jacksonyoudi.base.*" />
+          <option name="PATTERN" value="com.jacksonyoudi.handbook.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NIOFileChannel03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jacksonyoudi.handbook.nio.NIOFileChannel03" />
+      <module name="MeshNetty" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jacksonyoudi.handbook.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MappedByteBufferD" />
+        <item itemvalue="Application.NIOFileChannel03" />
+        <item itemvalue="Application.NIOFileChannel02" />
+        <item itemvalue="Application.NIOFileChannel01" />
         <item itemvalue="Application.BIOServer" />
-        <item itemvalue="Application.DiscardServer" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.WCStreaming" />
-        <item itemvalue="Application.WC" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +203,8 @@
       <workItem from="1632438296615" duration="597000" />
       <workItem from="1632492135246" duration="182000" />
       <workItem from="1632820447232" duration="334000" />
-      <workItem from="1632878928703" duration="2312000" />
+      <workItem from="1632878928703" duration="2666000" />
+      <workItem from="1632895359560" duration="6099000" />
     </task>
     <servers />
   </component>
@@ -226,30 +232,34 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="437" y="186" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1632097541070" />
-    <state width="1868" height="479" key="GridCell.Tab.0.bottom" timestamp="1632880547523">
+    <state width="1868" height="479" key="GridCell.Tab.0.bottom" timestamp="1632913756398">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state width="1740" height="453" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591140" />
     <state width="1740" height="453" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977484" />
-    <state width="1868" height="479" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632880547523" />
-    <state width="1868" height="479" key="GridCell.Tab.0.center" timestamp="1632880547520">
+    <state width="1868" height="479" key="GridCell.Tab.0.bottom/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632913756398" />
+    <state width="1868" height="479" key="GridCell.Tab.0.bottom/1792.23.1920.1057/0.0.1792.1120@1792.23.1920.1057" timestamp="1632888248367" />
+    <state width="1868" height="479" key="GridCell.Tab.0.center" timestamp="1632913756396">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state width="1740" height="453" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591139" />
     <state width="1740" height="453" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977481" />
-    <state width="1868" height="479" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632880547520" />
-    <state width="1868" height="479" key="GridCell.Tab.0.left" timestamp="1632880547517">
+    <state width="1868" height="479" key="GridCell.Tab.0.center/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632913756396" />
+    <state width="1868" height="479" key="GridCell.Tab.0.center/1792.23.1920.1057/0.0.1792.1120@1792.23.1920.1057" timestamp="1632888248362" />
+    <state width="1868" height="479" key="GridCell.Tab.0.left" timestamp="1632913756394">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state width="1740" height="453" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591138" />
     <state width="1740" height="453" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977480" />
-    <state width="1868" height="479" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632880547517" />
-    <state width="1868" height="479" key="GridCell.Tab.0.right" timestamp="1632880547521">
+    <state width="1868" height="479" key="GridCell.Tab.0.left/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632913756394" />
+    <state width="1868" height="479" key="GridCell.Tab.0.left/1792.23.1920.1057/0.0.1792.1120@1792.23.1920.1057" timestamp="1632888248359" />
+    <state width="1868" height="479" key="GridCell.Tab.0.right" timestamp="1632913756397">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state width="1740" height="453" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1632227591140" />
     <state width="1740" height="453" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1632097977483" />
-    <state width="1868" height="479" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632880547521" />
+    <state width="1868" height="479" key="GridCell.Tab.0.right/1792.0.1920.1080/0.0.1792.1120@1792.0.1920.1080" timestamp="1632913756397" />
+    <state width="1868" height="479" key="GridCell.Tab.0.right/1792.23.1920.1057/0.0.1792.1120@1792.23.1920.1057" timestamp="1632888248364" />
     <state x="295" y="23" width="1280" height="1031" key="SettingsEditor" timestamp="1632097947445">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
