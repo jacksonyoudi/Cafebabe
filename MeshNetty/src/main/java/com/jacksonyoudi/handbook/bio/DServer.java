@@ -19,7 +19,9 @@ public class DServer {
         System.out.println("服务器启动");
 
         while (true) {
+            // 这里会阻塞
             Socket accept = socket.accept();
+            System.out.println(Thread.currentThread().getId() + Thread.currentThread().getName());
             System.out.println("一个客户端连接过来了");
 
             pool.execute(new Runnable() {
@@ -38,8 +40,10 @@ public class DServer {
         try {
             InputStream inputStream = socket.getInputStream();
 
+            System.out.println(Thread.currentThread().getId() + Thread.currentThread().getName());
             while (true) {
 
+                // 这里会阻塞
                 int read = inputStream.read(bytes);
                 if (read != -1) {
                     System.out.println(new String(bytes, 0, read));
