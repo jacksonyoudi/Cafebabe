@@ -14,6 +14,7 @@
         <module>Squirrel</module>
         <module>Dolphin</module>
         <module>MeshNetty</module>
+        <module>Summer</module>
     </modules>
 
     <properties>
