@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Squirrel" />
-        <module name="Mybatis" />
-        <module name="Dolphin" />
         <module name="MeshNetty" />
+        <module name="Dolphin" />
+        <module name="Mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
