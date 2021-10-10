@@ -1,6 +1,5 @@
 package com.jacksonyoudi.handbook.nio;
 
-import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.Buffer;
 import java.nio.ByteBuffer;
