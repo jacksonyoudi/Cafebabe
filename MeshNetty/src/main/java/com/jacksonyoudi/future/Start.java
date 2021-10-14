@@ -3,9 +3,10 @@ package com.jacksonyoudi.future;
 import com.jacksonyoudi.utils.SmallTool;
 
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 public class Start {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         SmallTool.printTimeAndThread("小白进入餐厅");
         SmallTool.printTimeAndThread("小白点了 番茄炒蛋 + 一碗米饭");
 
@@ -19,6 +20,7 @@ public class Start {
                 }
         );
 
+//        cf1.get();
         SmallTool.printTimeAndThread("小白打王者");
         SmallTool.printTimeAndThread(String.format("%s, 小白开吃", cf1.join()));
 
