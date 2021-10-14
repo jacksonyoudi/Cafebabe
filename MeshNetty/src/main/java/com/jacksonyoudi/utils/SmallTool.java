@@ -1,2 +1,5 @@
-package com.jacksonyoudi.utils;public class SmallTool {
-}
+package com.jacksonyoudi.utils;
+    public class SmallTool {
+
+
+    }
