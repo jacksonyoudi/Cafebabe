@@ -6,11 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dolphin" />
         <module name="Mybatis" />
-        <module name="Squirrel" />
-        <module name="MeshNetty" />
-        <module name="Summer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
