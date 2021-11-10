@@ -81,6 +81,77 @@ redis性能:
 
 
 
+### zookeeper etcd
+zk使用多台
+分布式协调
+    分布式锁
+    分布式id
+    分布式配置
+    分布式注册发现
+    分布式HA
+
+
+#### zk 
+主从
+    leader单机: 两阶段提交 2PC 过半通过  性能不如redis, 有IO，有网络通信
+    slave
+    选举： 推让制，互相发消息，带着自己数据的id zxid, serverid 选择id大的
+
+session,watch:
+    会话会在多台上同步 session有超时时间的，不需要续租
+    session是有心跳的    
+
+    path node 
+    持久 
+    临时node绑定到session上
+    
+    watch： 监控回调   事件： delete create change  callback 在client执行的
+    地址：注册回调
+    
+
+
+
+### redis vs zookeeper etcd取舍
+
+使用队列， 异步 响应式 绕开分布式锁
+资源性能提升
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+
+
+
 
 
 
