@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/asynchronous/Asynchronous.iml" filepath="$PROJECT_DIR$/asynchronous/Asynchronous.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cafebabe.iml" filepath="$PROJECT_DIR$/Cafebabe.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mybatis/Mybatis.iml" filepath="$PROJECT_DIR$/Mybatis/Mybatis.iml" />
     </modules>
