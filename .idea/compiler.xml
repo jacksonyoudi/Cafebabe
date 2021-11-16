@@ -6,18 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Mybatis" />
         <module name="Asynchronous" />
+        <module name="MartinOdersky" />
+        <module name="Dolphin" />
+        <module name="Summer" />
+        <module name="Cafebabe" />
+        <module name="Squirrel" />
+        <module name="MeshNetty" />
+        <module name="Mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Asynchronous" target="8" />
       <module name="Cafebabe" target="8" />
       <module name="Dolphin" target="8" />
+      <module name="MartinOdersky" target="8" />
       <module name="MeshNetty" target="1.8" />
       <module name="Mybatis" target="8" />
       <module name="Poseidon" target="8" />
-      <module name="Squirrel" target="1.8" />
+      <module name="Squirrel" target="8" />
       <module name="Summer" target="1.8" />
     </bytecodeTargetLevel>
   </component>

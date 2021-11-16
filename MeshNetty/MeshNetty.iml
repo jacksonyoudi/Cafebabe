@@ -22,9 +22,4 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.junit.jupiter:junit-jupiter-engine:5.8.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: org.junit.platform:junit-platform-engine:1.8.1" level="project" />
   </component>
-  <component name="copyright">
-    <Base>
-      <setting name="state" value="2" />
-    </Base>
-  </component>
 </module>
