@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Asynchronous/Asynchronous.iml" filepath="$PROJECT_DIR$/Asynchronous/Asynchronous.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cafebabe.iml" filepath="$PROJECT_DIR$/Cafebabe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Diglett/Diglett.iml" filepath="$PROJECT_DIR$/Diglett/Diglett.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dolphin/Dolphin.iml" filepath="$PROJECT_DIR$/Dolphin/Dolphin.iml" />
       <module fileurl="file://$PROJECT_DIR$/MartinOdersky/MartinOdersky.iml" filepath="$PROJECT_DIR$/MartinOdersky/MartinOdersky.iml" />
       <module fileurl="file://$PROJECT_DIR$/MeshNetty/MeshNetty.iml" filepath="$PROJECT_DIR$/MeshNetty/MeshNetty.iml" />
