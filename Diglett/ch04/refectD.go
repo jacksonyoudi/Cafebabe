@@ -22,7 +22,6 @@ func reflectTest() {
 	x1 := X{100, 3.14, true}
 	//y1 := Y{1, 2, 1.5, "hello"}
 	rx1 := reflect.ValueOf(&x1).Elem()
-
 	fields := rx1.NumField()
 
 	typ := rx1.Type()
