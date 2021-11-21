@@ -1,0 +1,9 @@
+syntax = "proto3";
+package proto;
+option go_package="./;user";
+
+
+message UserInfo {
+  string message = 1;
+  int32 length = 2;
+}
