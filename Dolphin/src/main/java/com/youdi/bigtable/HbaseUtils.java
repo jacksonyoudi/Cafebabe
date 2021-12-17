@@ -2,6 +2,7 @@ package com.youdi.bigtable;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
+import org.apache.hadoop.hbase.HConstants;
 import org.apache.hadoop.hbase.client.*;
 import org.apache.hadoop.hbase.TableName;
 import org.apache.hadoop.hbase.filter.FilterList;
@@ -22,11 +23,17 @@ public class HbaseUtils {
 
     static {
         Configuration conf = HBaseConfiguration.create();
-        conf.set("hbase.zookeeper.property.clientPort", "2181");
-        conf.set("hbase.zookeeper.quorum", "hadoop001");
+        conf.set(HConstants.ZOOKEEPER_CLIENT_PORT, "2181");
+        conf.set(HConstants.ZOOKEEPER_QUORUM, "localhost");
+        conf.set(HConstants.ZOOKEEPER_ZNODE_PARENT, "/hbase");
 
         try {
-            ConnectionFactory.createConnection(conf);
+            System.out.println("starting.....");
+            connection = ConnectionFactory.createConnection(conf);
+
+            System.out.println("ok....");
+
+
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -24,7 +24,7 @@
       <module name="MeshNetty" target="1.8" />
       <module name="Mybatis" target="8" />
       <module name="Poseidon" target="8" />
-      <module name="Squirrel" target="8" />
+      <module name="Squirrel" target="1.8" />
       <module name="Summer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
