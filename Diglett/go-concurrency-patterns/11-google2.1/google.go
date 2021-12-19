@@ -23,7 +23,7 @@ var (
 	Video = fakeSearch("video")
 )
 
-func Google(query string) (results []Result)  {
+func Google(query string) (results []Result) {
 	c := make(chan Result)
 
 	go func() {
@@ -37,12 +37,26 @@ func Google(query string) (results []Result)  {
 	go func() {
 		c <- Video(query)
 	}()
-		
 
+	timeout := time.After(50 * time.Millisecond)
 
-
-
+	for i := 0; i < 3; i++ {
+		select {
+		case r := <-c:
+			results = append(results, r)
+		case <-timeout:
+			fmt.Println("timeout")
+			return
+		}
+	}
+	return
 }
 
-
-
+func main() {
+	rand.Seed(time.Now().UnixNano())
+	start := time.Now()
+	results := Google("golang")
+	elapsed := time.Since(start)
+	fmt.Println(results)
+	fmt.Println(elapsed)
+}
