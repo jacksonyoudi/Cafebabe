@@ -10,15 +10,6 @@ type Result string
 
 type Search func(query string) Result
 
-
-// 函数是第一个公民
-var (
-	Web   = fakeSearch("web")
-	Image = fakeSearch("image")
-	Video = fakeSearch("video")
-)
-
-// 闭包， 函数柯里化
 func fakeSearch(kind string) Search {
 	return func(query string) Result {
 		time.Sleep(time.Duration(rand.Intn(100)) * time.Microsecond)
@@ -26,10 +17,32 @@ func fakeSearch(kind string) Search {
 	}
 }
 
+var (
+	Web   = fakeSearch("web")
+	Image = fakeSearch("image")
+	Video = fakeSearch("video")
+)
+
+// 并行处理， 最后统一处理， 就是 map reduce的方式
 func Google(query string) (results []Result) {
-	results = append(results, Web(query))
-	results = append(results, Image(query))
-	results = append(results, Video(query))
+	c := make(chan Result)
+
+	go func() {
+		c <- Web(query)
+	}()
+
+	go func() {
+		c <- Image(query)
+	}()
+
+	go func() {
+		c <- Video(query)
+	}()
+
+	// 阻塞， 遍历3个结果
+	for i := 0; i < 3; i++ {
+		results = append(results, <-c)
+	}
 	return
 }
 
@@ -40,5 +53,4 @@ func main() {
 	elapsed := time.Since(start)
 	fmt.Println(results)
 	fmt.Println(elapsed)
-
 }
