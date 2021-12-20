@@ -1,9 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func f(left, right chan int) {
-	left <- 1 + <-right
+	left <- 1 + <-right // get the value from the right and add 1 to it
 }
 
 func main() {
