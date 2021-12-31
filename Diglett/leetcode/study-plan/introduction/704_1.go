@@ -14,6 +14,8 @@ func searchHelp(nums []int, start, end int, target int) int {
 	return -1
 }
 
+
+
 func search_1(nums []int, target int) int {
 	low, high := 0, len(nums)-1
 
