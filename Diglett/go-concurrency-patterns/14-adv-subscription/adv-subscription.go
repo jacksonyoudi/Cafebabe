@@ -14,7 +14,7 @@ type Fetcher interface {
 }
 
 type Subscription interface {
-	Updates() <-chan Item
+	Updates() <-chan *Item
 	Close() error
 }
 
@@ -28,7 +28,7 @@ func (s *sub) Updates() <-chan *Item {
 	return s.updates
 }
 
-func (s *sub) close() error {
+func (s *sub) Close() error {
 	errc := make(chan error)
 	s.closing <- errc
 	return <-errc
