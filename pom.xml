@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Cafebabe</artifactId>
+    <packaging>pom</packaging>
     <groupId>com.jacksonyoudi</groupId>
     <version>1.0-SNAPSHOT</version>
 
@@ -17,6 +18,7 @@
         <module>MeshNetty</module>
         <module>Squirrel</module>
         <module>Summer</module>
+        <module>Pulsating</module>
     </modules>
 
     <properties>
