@@ -1,5 +1,10 @@
 package com.jacksonyoudi.concurrent
 
-class FutureD {
+import scala.concurrent.Future
+import scala.util.Try
 
+object FutureD {
+  def main(args: Array[String]): Unit = {
+
+  }
 }
